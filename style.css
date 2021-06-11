@@ -16,6 +16,12 @@ header img {
   height: 150px;
   background-color: #b0f2b6;
 }
+#rectangle img {
+  width: 20px;
+}
+#rectangle ul{
+  margin: 15px 0 3px 0;
+}
 .alignement {
   display: grid;
   grid-template-columns: 1fr 2.50fr 4.5fr;
