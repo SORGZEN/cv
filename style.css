@@ -1,0 +1,163 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header img {
+  border-radius: 750px;
+  width: 150px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#rectangle {
+  width: 350px;
+  height: 150px;
+  background-color: #b0f2b6;
+}
+.alignement {
+  display: grid;
+  grid-template-columns: 1fr 2.50fr 4.5fr;
+  grid-gap: 4px 2em;
+  vertical-align: top;
+}
+.alignement h1 {
+  font-size: 2.1em;
+  line-height: normal;
+  line-height: 25%;
+}
+.alignement h2 {
+  font-weight: normal;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: normal;
+  line-height: 50%;
+}
+
+.left {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding-right: 5px;
+}
+.left h2 {
+  letter-spacing: 8px;
+  font-weight: 500;
+}
+.profil {
+}
+.profil h2{
+  margin-bottom: 1px;
+}
+.profil hr{
+  margin-top: 0;
+}
+.interest {
+}
+.interest h2 {
+  margin-bottom: 1px;
+}
+.interest hr {
+  margin-top: 0;
+}
+.interest ul {
+  padding-left: 0;
+  list-style: none;
+}
+/*
+.interest ul li:before {
+  content: "✓";
+}
+*/
+.language {
+}
+.language h2 {
+  margin-bottom: 1px;
+}
+.language hr {
+  margin-top: 0;
+}
+.skills {
+}
+.skills h2 {
+  margin-bottom: 1px;
+}
+.skills hr {
+  margin-top: 0;
+}
+
+
+.right {
+  display: inline-block;
+  width: 50%;
+}
+
+.formation,.exp{
+  border-left: 1px solid green;
+  padding-left: 15px;
+  position: relative;
+}
+.formation::before, .exp::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: green;
+  position: absolute;
+  left: -10px;
+  border-radius: 100%;
+}
+.formation h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  line-height: normal;
+}
+.formation h3 {
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 0%;
+}
+.formation h4 {
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 0%;
+}
+.formation p {
+  line-height: 0%;
+}
+
+.exp {
+}
+.exp h2 {
+  font-weight: normal;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.exp h3 {
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: 0%;
+}
+.exp h4 {
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 0%;
+}
+.exp p {
+  line-height: 0%;
+  font-size: 1.12em;
+}
+
+.bot {
+  background-color: #b0f2b6;
+  width: 1000px;
+  height: 20px;
+
+  margin: 0 auto;
+  margin-top: 70px;
+}
